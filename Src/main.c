@@ -10,7 +10,8 @@ int main(void) {
     uart_send_string("STM32 UART driver running!\r\n");
 
     while (1) {
-        uart_send_string("Hello from bare-metal!\r\n");
+        uart_send_string("Hello there!\r\n");
+        uart_send_string("Hello from Musee!\r\n");
         delay(500000);
     }
 }
